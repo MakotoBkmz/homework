@@ -1,5 +1,5 @@
 from decimal import Decimal
-import math #I could 'from math import pi' but we had different example in presentation
+import math
 
 radius = float(input('Input radius here >>> '))
 sphere_volume = (4/3)*math.pi*radius**3
