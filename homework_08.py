@@ -14,9 +14,9 @@ if password_syntax_met and login_requirements_met:
         print('You have been logged out.')
         if password_syntax_met:
             if password_requirements_met:
-                l = input('Please re-enter your Login (letters and numbers only)  >>> ')
-                p = input('Please confirm your password (letters and numbers only) >>> ')
-                if l == login and p == password:
+                login_repeat = input('Please re-enter your Login (letters and numbers only)  >>> ')
+                password_repeat = input('Please confirm your password (letters and numbers only) >>> ')
+                if login_repeat == login and password_repeat == password:
                     print(login_success_template)
                 else:
                     print(password_match_false)
@@ -29,9 +29,3 @@ if password_syntax_met and login_requirements_met:
 
 else:
     print(f'Please enter proper login or password!')
-
-
-
-
-
-
