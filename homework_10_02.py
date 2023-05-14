@@ -23,4 +23,4 @@ students['Женя Курич']['Вік'] = 25
 sudent_count = len(students)
 
 pprint.pprint(students)
-print(sudent_count)
+print('Всего в группе', sudent_count, 'студента')
